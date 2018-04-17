@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "express": "^4.16.3",
+    "ignore-styles": "^5.0.1",
+    "morgan": "^1.9.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
+    "react-helmet": "^5.2.0",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^1.1.4",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
@@ -16,6 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "NODE_ENV=development node server/index.js"
   }
 }
